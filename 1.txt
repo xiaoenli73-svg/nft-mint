@@ -1,0 +1,78 @@
+API 密钥 
+e8635b53c1bd6ff21990
+API 密钥 
+0ae26eb9c7190404f87bf22ca1ea02fbd983829aa1619199c7ca7bfe22a8d881
+
+JWT（秘密访问令牌）
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mb3JtYXRpb24iOnsiaWQiOiIxZjRhZjNiNi1iODM4LTQ4ZTAtYTgzNi0zOTM3YzM2NmU4YTgiLCJlbWFpbCI6InhpYW9lbmxpNzNAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsInBpbl9wb2xpY3kiOnsicmVnaW9ucyI6W3siZGVzaXJlZFJlcGxpY2F0aW9uQ291bnQiOjEsImlkIjoiRlJBMSJ9LHsiZGVzaXJlZFJlcGxpY2F0aW9uQ291bnQiOjEsImlkIjoiTllDMSJ9XSwidmVyc2lvbiI6MX0sIm1mYV9lbmFibGVkIjpmYWxzZSwic3RhdHVzIjoiQUNUSVZFIn0sImF1dGhlbnRpY2F0aW9uVHlwZSI6InNjb3BlZEtleSIsInNjb3BlZEtleUtleSI6ImU4NjM1YjUzYzFiZDZmZjIxOTkwIiwic2NvcGVkS2V5U2VjcmV0IjoiMGFlMjZlYjljNzE5MDQwNGY4N2JmMjJjYTFlYTAyZmJkOTgzODI5YWExNjE5MTk5YzdjYTdiZmUyMmE4ZDg4MSIsImV4cCI6MTc5MjA5NDkyMH0.mNmReNYl0v1MgjBhleZX_mOPP-Nqb5Tf8ghzWSR42v4
+
+e8635b53c1bd6ff21990
+
+candy-machine-cli create_candy_machine `
+
+
+
+  --env devnet `
+  --keypair C:\Users\Administrator\.config\solana\devnet.json `
+  --config config.json `
+  --collection 你的合集地址
+
+# 在项目根目录执行（测试网）
+metaplex create-collection `
+  --name "My Awesome NFTs"  
+  --symbol "girl"  
+  --description "独特元素组合的NFT合集"  
+  --image "https://ipfs.io/ipfs/bafkreiapu4gcunzeuxk2mgawaikugrv46ohypiwhwimgbedcaupy7osojq" 
+  --wallet C:\Users\Administrator\Desktop\devnet-wallet.json
+  --env devnet  
+
+
+
+--uri "https://copper-total-grasshopper-936.mypinata.cloud/ipfs/bafkreif6seokyer2hjg2goik3xaemapfsdggqt3bsfup57ygx5hqz5zmm4" `
+
+
+√ Collection created successfully
+--------------------------------
+  Collection: DumTVaUh8bTqdtLs2yMRtVfRW1sSLBhMwkBKAUMN65cm
+  Signature: 2DwpzWF8TtiU3vRvtFFseLrw1jHQcV3Ui4XMSnsp9YfxbfFuSnmRtJtzPmdrvzeJniTWG4VBvJ7ezXuEMjuZjMow
+  Explorer: https://explorer.solana.com/tx/2DwpzWF8TtiU3vRvtFFseLrw1jHQcV3Ui4XMSnsp9YfxbfFuSnmRtJtzPmdrvzeJniTWG4VBvJ7ezXuEMjuZjMow?cluster=devnet
+  Core Explorer: https://core.metaplex.com/explorer/DumTVaUh8bTqdtLs2yMRtVfRW1sSLBhMwkBKAUMN65cm
+
+metadata  cid：
+bafybeichb35gaaqj23wc4aj52fvaa2cgyr5fqaztlpveus54265d4pvesy
+File ID：
+62f621e9-a0f6-4cfa-8238-8c78956f6f96
+
+img：
+cid：
+bafybeidlq7ouimdepgbsgxb4sh75bgeclf7nb3rffoz3r7cr3pr7pdic2y
+File ID：
+fcd353e0-de55-4802-a236-bda82ee11aad
+
+
+mplx core candy-machine create `
+  --keypair "C:\Users\Administrator\Desktop\devnet-wallet.json" `  # 你的钱包keypair路径
+  --rpc "https://api.devnet.solana.com" `  # 测试网RPC地址
+  --config "C:\Users\Administrator\Desktop\solana-nft-minter\config.json" `  # 配置文件路径
+  --collection "DumTVaUh8bTqdtLs2yMRtVfRW1sSLBhMwkBKAUMN65cm"  # 之前创建合集时返回的mintAddress（如5sFgH...j2kL）
+
+
+Merkle Root: 1336f193f438b792804104a3a3c249f1893852651e125713afcb2ad3dfa44571
+白名单地址数量: 2
+证明已保存到 merkle-proofs.json
+PS C:\Users\Administrator\Desktop\solana-nft-minter>
+
+Candy Machine ID: 7qCGfqDLkuVXASynM69dGPvn7qnYYjvH4LrF6oWREBLK
+
+D5QfaYVrMEKmsrwwcLLr7qXF8P5pgAZtUmxQJUBbg1xm
+
+
+1336f193f438b792804104a3a3c249f1893852651e125713afcb2ad3dfa44571
+
+
+
+C:\Users\Administrator\AppData\Roaming\npm\node_modules
+
+GYOeW1sN5mXWgUTfWK9Au .json
+配置文件:C:\Users\Administrator.config\solana\cli\config.ymlRPCURL:https://api.devnet.solana.comWebsocket地址:wss://api.devnet.solana.com/(计算得出)密钥对路径:.AndyVp6EAkzMKZx6Lx区nCQXGYQeW1sN5mXWgUTfWK9Au.json承诺:已确认
+PSC:|用户|管理员|桌面|CMV3   

@@ -1,0 +1,28 @@
+Collection Mint: DTe7cCTZiN8urSe9U4nmdfKv5GyEsi5iYnJMxVj4F13C
+Candy Guard: GrNUKnm7J4sMGBTkQx5bCs4zMJYbbEBwQj9Du4i2dhZQ
+Candy Machine: B1M1yTedwzRjGoPpQ7B2FbdWvcx7quykXqXp782piwx4
+
+owner E1rhvzXS54wFDswpg7135jCBpchzSaPoGY3qRdoVM1v
+Creator  D5QfaYVrMEKmsrwwcLLr7qXF8P5pgAZtUmxQJUBbg1xm
+mint EkwXcW78Jh8bZo4ucZoLVmPN82Kx3hyd5DMgNhnsr3tS
+创建 candy machine 阶段卡住
+
+cd nft2
+npm install
+node deploy-candy-machine.js
+
+owner E1rhvzXS54wFDswpg7135jCBpchzSaPoGY3qRdoVM1v
+Creator  D5QfaYVrMEKmsrwwcLLr7qXF8P5pgAZtUmxQJUBbg1xm
+mint EkwXcW78Jh8bZo4ucZoLVmPN82Kx3hyd5DMgNhnsr3tS
+
+NFT地址: EMimSSpQHuv2CncwqCHaXWCv2YEFKwxTPK47nv6fnynV
+NFT名称: Collection NFT #1
+交易签名: mock_signature_123
+
+✅ 铸造成功！
+NFT地址: EMimSSpQHuv2CncwqCHaXWCv2YEFKwxTPK47nv6fnynV
+NFT名称: Collection NFT #1
+交易签名: mock_signature_123
+
+solana config set --keypair C:\Users\Administrator\Desktop\Owner.json 
+sugar mint 8ff4p1QRDt4JkunwxpAHRa59q4C13FTJbQjx4CEx8rti
